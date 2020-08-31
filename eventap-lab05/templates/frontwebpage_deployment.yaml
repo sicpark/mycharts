@@ -30,7 +30,7 @@ spec:
             memory: 300Mi
         env:
         - name: API_URL
-          value: "http://academycluster-33428fdc8c902d767d21a8dd5e9346e8-0000.seo01.containers.appdomain.cloud"
+          value: "http://academycluster-33428fdc8c902d767d21a8dd5e9346e8-0000.seo01.containers.appdomain.cloud/{{ .Values.username }}"
 ---
 kind: Service
 apiVersion: v1
