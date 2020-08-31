@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  eventapp-lab05:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-08-31T20:30:31.0513506+09:00"
+    description: A Helm chart for Kubernetes
+    digest: fe10f750e9d34fec7a3e78290927f9f96db021f3cbceb29087bb01f13d13bddb
+    name: eventapp-lab05
+    type: application
+    urls:
+    - https://sicpark.github.io/mycharts/eventapp-lab05-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-08-31T20:30:31.0443054+09:00"
